@@ -4,7 +4,7 @@
   "description": "nodejs app in docker container",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js > ./output/output.log"
   },
   "author": "heychessy,heypb",
   "license": "MIT",
